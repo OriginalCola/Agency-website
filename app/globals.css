@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 80%;
+    border-bottom: 4px solid #2746e3;
+    animation: line 0.4s linear 0s normal none;
+}
+
+.active::before {
+    background-size: 100% 2px;
+}
+
+.border {
+    position: fixed;
+    justify-content: flex-start;
+    backdrop-filter: blur(5px);
+    border: none;
+}
+
+@keyframes line {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}

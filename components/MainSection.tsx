@@ -1,13 +1,9 @@
-import Hero from "./Hero"
-import NavBar from "./NavBar"
+import Hero from "./Hero";
 
-const MainSection = () => {
+export default function MainSection() {
     return (
-        <div className="bg-[url('/Background.png')]">
-            <NavBar/>
-            <Hero/>
+        <div className="bg-[url('./Background.png')">
+            <Hero />
         </div>
-    )
+    );
 }
-
-export default MainSection
