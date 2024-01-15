@@ -23,7 +23,7 @@ export default function Footer() {
                 <div className='mobile:hidden tablet:hidden'>
                     <Image
                         style={{ marginTop: 145, position: "absolute", right: "20rem" }}
-                        src='/FooterBackground.png'
+                        src={'/FooterBackground.png'}
                         width={498}
                         height={367}
                         alt='HappyPerson'
