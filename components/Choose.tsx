@@ -14,8 +14,8 @@ export default function Choose() {
                 />
             </div>
             <div className='desktop:w-[30rem] tablet:w-[40rem]'>
-                <h1 className='text-[#FFF] text-[2.5rem] font-[500]'>Why should you choose Zebra</h1>
-                <h3 className='text-[#C9C9C9] text-[1.125rem] font-[400]'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</h3>
+                <h1 className='text-[#FFF] text-[2.75rem] font-[500]'>Why should you choose Zebra</h1>
+                <h3 className='text-[#C9C9C9] text-[1.5rem] font-[400]'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</h3>
                 <Button className='mt-5 rounded-full bg-main text-[#fff] font-[500]'>Contact us</Button>
             </div>
         </div>
