@@ -52,7 +52,7 @@ export default function Header() {
                         className={hashFragment === "#about" ? "active" : ""}
                         color='foreground'
                         href='#about'>
-                        About Us
+                        O nas
                     </Link>
                 </NavbarItem>
                 <NavbarItem className='flex items-center'>
@@ -61,7 +61,7 @@ export default function Header() {
                         className={hashFragment === "#services" ? "active" : ""}
                         color='foreground'
                         href='#services'>
-                        Services
+                        Oferta
                     </Link>
                 </NavbarItem>
                 <NavbarItem className='flex items-center'>
@@ -70,7 +70,7 @@ export default function Header() {
                         className={hashFragment === "#lastest" ? "active" : ""}
                         color='foreground'
                         href='#lastest'>
-                        Latest Work
+                        Ostatnie prace
                     </Link>
                 </NavbarItem>
             </NavbarContent>
@@ -78,7 +78,7 @@ export default function Header() {
                 justify='end'
                 className='mr-[10.625rem] mobile:hidden'>
                 <NavbarItem>
-                    <Button className='bg-main text-[#fff] font-[500] rounded-full'>Contact us</Button>
+                    <Button className='bg-main text-[#fff] font-[500] rounded-full'>Skontaktuj się</Button>
                 </NavbarItem>
             </NavbarContent>
 

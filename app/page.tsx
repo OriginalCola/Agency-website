@@ -15,7 +15,6 @@ export default function Home() {
             <MainSection />
             <Featured />
             <Services />
-            <Choose />
             <Works />
             <Footer />
         </div>

@@ -14,9 +14,9 @@ export default function Choose() {
                 />
             </div>
             <div className='desktop:w-[30rem] tablet:w-[40rem]'>
-                <h1 className='text-[#FFF] text-[2.75rem] font-[500]'>Why should you choose Zebra</h1>
-                <h3 className='text-[#C9C9C9] text-[1.5rem] font-[400]'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</h3>
-                <Button className='mt-5 rounded-full bg-main text-[#fff] font-[500]'>Contact us</Button>
+                <h1 className='text-[#FFF] text-[2.75rem] font-[500]'>Dlaczego my?</h1>
+                <h3 className='text-[#C9C9C9] text-[1.5rem] font-[400]'>Wybierając naszą markę, otrzymujesz nie tylko produkt czy usługę, ale doświadczasz pełnego zaangażowania w jakość, innowację i satysfakcję klienta. Nasza firma nie tylko przewyższa oczekiwania, ale także buduje trwałe relacje oparte na zaufaniu, profesjonalizmie i nieustannym dążeniu do doskonałości. Razem z nami nie tylko nabywasz produkt a dołączasz do wspólnoty, która inspiruje i kreuje wyjątkowe doświadczenia.</h3>
+                <Button className='mt-5 rounded-full bg-main text-[#fff] font-[500]'>Skontaktuj się</Button>
             </div>
         </div>
     );
