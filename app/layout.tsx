@@ -9,6 +9,7 @@ const inter = Rubik({ subsets: ["latin"] });
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang='en'>
+        <link rel="icon" href="./public/trynityflow3.ico" sizes="any" />
             <body className={inter.className}>
                 <Providers>{children}</Providers>
             </body>

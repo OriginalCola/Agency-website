@@ -10,6 +10,7 @@ import Works from "@/components/LastWorks";
 
 export default function Home() {
     return (
+        
         <div>
             <Header />
             <MainSection />
