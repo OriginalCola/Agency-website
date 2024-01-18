@@ -53,3 +53,16 @@ html {
         width: 85%;
     }
 }
+
+
+.gradient-text {
+    background: linear-gradient(to right,
+     #2746e3, 
+     #16b3e2,
+     #0e7ec9,
+     #2746e3, 
+     #16b3e2,
+     #0e7ec9);
+    background-size: 300%, 300%;
+    background-clip: text;
+}

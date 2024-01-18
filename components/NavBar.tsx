@@ -1,8 +1,9 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Image, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
 import { Fade as Hamburger } from "hamburger-react";
-
+import { useRouter } from 'next/navigation'
 export default function Header() {
+    const router = useRouter()
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [hashFragment, setHashFragment] = React.useState("");
 
@@ -78,7 +79,7 @@ export default function Header() {
                 justify='end'
                 className='mr-[10.625rem] mobile:hidden'>
                 <NavbarItem>
-                    <Button className='bg-main text-[#fff] font-[500] rounded-full'>Skontaktuj się</Button>
+                    <Button onClick={() => router.push('mailto:trynityflow@gmail.com')} className='bg-main text-[#fff] font-[500] rounded-full'>Skontaktuj się</Button>
                 </NavbarItem>
             </NavbarContent>
 
