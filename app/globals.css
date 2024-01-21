@@ -66,3 +66,21 @@ html {
     background-size: 300%, 300%;
     background-clip: text;
 }
+
+.gradient-fire-text {
+    background: linear-gradient(to right,
+    #A10100, 
+    #DA1F05,
+    #F33C04,
+    #FE650D,
+    #FFC11F,
+    #FFF75D, 
+    #A10100, 
+    #DA1F05,
+    #F33C04,
+    #FE650D,
+    #FFC11F,
+    #FFF75D );
+   background-size: 300%, 300%;
+   background-clip: text;
+}
