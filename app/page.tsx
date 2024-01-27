@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Services from "@/components/Services";
 import Choose from "@/components/Choose";
 import Works from "@/components/LastWorks";
+import Team from "@/components/Team";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Featured />
             <Services />
             <Works />
+            <Team/>
             <Footer />
         </div>
     );
