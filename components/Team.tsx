@@ -14,7 +14,7 @@ export default function Team() {
             </div>
             <div className='grid desktop:grid-cols-4 gap-y-10 gap-x-5 desktop:mx-[10.625rem] mt-[2rem] tablet:grid-cols-2 mobile:grid-cols-1 tablet:mx-[5rem] mobile:mx-[2rem] '>
             {teamMembers.map((item, index) => (
-                <div className={cardStyle}>
+                <div key={index} className={cardStyle}>
                 <Avatar src={item.picture} size="lg" />
                     <div className={textContainer}>
                         <h1 className={textStyle}>{item.name}</h1>
